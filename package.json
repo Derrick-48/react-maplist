@@ -1,0 +1,55 @@
+{
+  "name": "react-maplist",
+  "version": "0.1.0",
+  "description": "An animated list component for React using map functions and Framer Motion",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "list",
+    "maplist",
+    "animation",
+    "framer-motion"
+  ],
+  "author": "Kello Derrick Junior & Nana Agyemang Gyamfi",
+  "license": "MIT",
+  "peerDependencies": {
+    "framer-motion": ">=4.0.0",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Derrick-48/react-maplist"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@types/react": "^19.0.10",
+    "framer-motion": "^12.4.10",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rollup": "^2.79.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^5.8.2"
+  }
+}
