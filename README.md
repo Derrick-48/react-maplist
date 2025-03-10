@@ -68,39 +68,7 @@ You can customize the styles of the MapList component using **Tailwind CSS** or 
 
 ---
 
-## 🌍 Documentation Preview
 
-To preview the documentation site locally, clone this repository and install dependencies:
-
-```sh
-git clone https://github.com/yourusername/maplist-docs.git
-cd maplist-docs
-npm install
-npm start
-```
-
-This will start a local development server where you can view the documentation in a browser.
-
----
-
-## 🔄 Updating the Published Package
-
-To update the already public **MapList** package on **npm**, follow these steps:
-
-1. Make your changes in the repository.
-2. Update the version number in `package.json` (e.g., `1.0.1` to `1.0.2`).
-3. Run the following commands:
-
-```sh
-git add .
-git commit -m "Updated MapList to version X.X.X"
-npm version patch # or minor/major depending on changes
-npm publish
-```
-
-This will publish the updated package to **npm**, making it available to users.
-
----
 
 ## 🌟 Support
 
