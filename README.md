@@ -9,13 +9,13 @@ Welcome to the **MapList** documentation! This document will guide you through i
 You can install MapList via **npm** or **yarn**:
 
 ```sh
-npm install maplist-component
+npm install react-maplist
 ```
 
 or
 
 ```sh
-yarn add maplist-component
+yarn add react-maplist
 ```
 
 ---
@@ -25,7 +25,7 @@ yarn add maplist-component
 To use MapList in your project, import it and pass your data:
 
 ```jsx
-import MapList from 'maplist-component';
+import MapList from 'react-maplist';
 
 const data = ["Item 1", "Item 2", "Item 3", "Item 4"];
 
