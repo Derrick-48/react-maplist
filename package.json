@@ -1,6 +1,6 @@
 {
   "name": "react-maplist",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "An animated list component for React using map functions and Framer Motion",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
